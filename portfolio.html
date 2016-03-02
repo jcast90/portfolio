@@ -1,0 +1,249 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>portfolio</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <script type="text/javascript" src="js/jquery-1.12.0.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script src="http://www.tutorialspoint.com/jquery/jquery-1.3.2.min.js"></script> 
+  <script src="http://www.tutorialspoint.com/jquery/jquery-ui-1.7.2.custom.min.js"></script>
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet" type="text/css">
+  
+</head>
+
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+ <div class="container-fluid">
+  <div class="navbar-header">
+<!--Mobile -->
+   <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#topFixedNavbar1" aria-expanded="false">
+    <span class="sr-only">Toggle navigation</span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+  </button>
+   <a class="navbar-brand" href="#">Home</a>
+  </div>
+<!-- Collect the nav links, forms, and other content for toggling -->
+ <div class="collapse navbar-collapse" id="topFixedNavbar1">
+  <ul class="nav navbar-nav">
+    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Featured Work<span class="caret"></span></a>
+      <ul class="dropdown-menu">
+       	<li><a href="#">Game</a></li>
+        <li><a href="#">Resume</a></li>
+        <li><a href="#">Website</a></li>
+        <li><a href="#">Map</a></li>
+        <li><a href="#">Testing</a></li>
+        <li><a href="#">Design</a></li>
+      </ul>
+    </li>
+   </ul>
+  </div>
+<!-- /.navbar-collapse -->
+ </div>
+<!-- /.container-fluid -->
+</nav>
+
+
+ <div class="container">
+   <div class="row">
+    <div class="col-md-6 col-sm-6 col-xs-12">
+     <img id="logo" class="title-logo img-responsive" src="imgs/logo.svg" alt="logo" >
+    </div>
+    <div class="col-md-6 col-sm-6 col-xs-12 text-right text-uppercase">
+     <h1 class="title-super text-thin">Jonathan Lancaster</h1>
+      <h4 class="unicorn">Unicorn</h4>
+    </div> 
+   </div>
+   <div class="row">
+    <div class="col-md-12 col-sm-12 col-xs-12 ">
+     <hr>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12 col-sm-12 col-xs-12 main-img">
+      <img class="img-responsive" src="https://unsplash.it/1260/500" alt="art1">
+    </div>
+ </div>
+
+   <!-- Saving for Jquery in final.
+   
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12" id="arrow-down">
+           <a href="#featured" class="scroll" ><img id="bounce" class="img-responsive arrow_dwn" src="imgs/arrow_down.svg" alt="arrow_down"></a> 
+          </div>
+        <div class="col-md-12 col-sm-12 col-xs-12 toggle" id="arrow-up">
+           <a href="#logo" class="scroll" ><img id="bouncey" class="img-responsive arrow_up arrow" src="imgs/arrow_up.svg" alt="arrow_up"></a>
+        </div>		
+       </div> -->
+       
+  <div class="row">
+    <div class="col-md-12 col-sm-12 col-xs-12 featured">
+      <h2 id="featured">Featured work</h2>
+    </div>
+    <div class="col-md-12 col-sm-12 col-xs-12">
+      <hr>
+    </div>
+    </div>
+    <div class="sub-container ">
+     <div class="row text-center work">
+      <div class="col-md-4 col-sm-4 col-xs-12">
+        <img class="img-responsive pointer" src="https://unsplash.it/500/300" alt="resume" data-toggle="modal" data-target="#resume">
+        <h2>Online Resume</h2>
+        <a href="#"><p>https://www.onlineresume.com</p></a>
+      </div>
+     <div class="col-md-4 col-sm-4 col-xs-12">
+       <img class="img-responsive pointer" src="https://unsplash.it/500/300" alt="game" data-toggle="modal" data-target="#game">
+       <h2>Classic Arcade Game</h2>
+       <a href="#"><p>https://www.classicgame.com</p></a>
+      </div>
+      <div  class="col-md-4 col-sm-4 col-xs-12">
+        <img class="img-responsive pointer" src="https://unsplash.it/500/300" alt="website" data-toggle="modal" data-target="#website">
+        <h2>Website Optimization</h2>
+        <a href="#"><p>https://www.optimization.com</p></a>
+      </div>
+     </div>
+     <div class="row text-center work">
+      <div  class="col-md-4 col-sm-4 col-xs-12">
+        <img class="img-responsive pointer" src="https://unsplash.it/500/300" alt="map" data-toggle="modal" data-target="#map">
+        <h2>Neighbourhood Map</h2>
+        <a href="#"><p>https://www.map.com</p></a>
+      </div>
+      <div  class="col-md-4 col-sm-4 col-xs-12">
+        <img class="img-responsive pointer" src="https://unsplash.it/500/300" alt="testing" data-toggle="modal" data-target="#testing">
+        <h2>Feed Reading Testing</h2>
+        <a href="#"><p>https://www.test.com</p></a>
+      </div>
+      <div  class="col-md-4 col-sm-4 col-xs-12">
+        <img class="img-responsive pointer" src="https://unsplash.it/500/300" alt="designs" data-toggle="modal" data-target="#designs">
+        <h2>Designs</h2>
+        <a href="#"><p>https://www.design.com</p></a>
+      </div>
+    </div>
+   </div>
+  </div>
+
+
+<!-- MODALS -->
+
+<div class="modal fade" id="resume" tabindex="-1" role="dialog" aria-labelledby="resume" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="resume_title">Resume</h4>
+      </div>
+     <div class="modal-body">
+        <img class="img-responsive" src="https://placeimg.com/500/300/nature" alt="resume">
+        <p>This was my first project in this class. I learned a lot about HTML and CSS. Also, I made a resume!!</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="game" tabindex="-1" role="dialog" aria-labelledby="game" aria-hidden="true">
+  <div class="modal-dialog">
+  <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="game_title">Video Game</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="https://placeimg.com/500/300/nature" alt="game">
+        <p>I made an old school video game!!</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="website" tabindex="-1" role="dialog" aria-labelledby="website" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="website_title">Website</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="https://placeimg.com/500/300/nature" alt="website">
+        <p>lets optimize this site!</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="map" tabindex="-1" role="dialog" aria-labelledby="map" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="map_title">MAP</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="https://placeimg.com/500/300/nature" alt="map">
+        <p>I made a map!!</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="testing" tabindex="-1" role="dialog" aria-labelledby="testing" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="testing_title">Testing</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="https://placeimg.com/500/300/nature" alt="testing">
+        <p>Let's test this stuff!</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="designs" tabindex="-1" role="dialog" aria-labelledby="designs" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="designs_title">Designs</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="https://placeimg.com/500/300/nature" alt="designs">
+        <p>Lets check out some designs!!</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<footer>
+	<div class="row">
+    	<div class="col-md-12 col-sm-12 col-xs-12">
+        <p id="footer">Contact me at <span><a href="#">jcast90@me.com</a></span></p>
+        </div>
+    </div>
+</footer>
+
+</body>
+
+</html>

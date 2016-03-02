@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<style type="text/css">
+
+	.toggle{
+		display:none;
+		}
+
+</style>
+
+</head>
+
+<body>
+
+	<div id="up" class="toggle" style="width:80px; height:50px; background-color:red;"></div>
+	<div id="down" style="width:80px;height:50px;background-color:green;"></div>
+    
+    <script>
+		$('#up').click(function(){
+			console.log("UP");
+		$('#down').toggleClass('toggle');
+		$('#up').toggleClass('toggle');
+		});
+		
+		$('#down').click(function(){
+			console.log("DOWN");
+		$('#down').toggleClass('toggle');
+		$('#up').toggleClass('toggle');
+			});
+	</script>
+</body>
+</html>
